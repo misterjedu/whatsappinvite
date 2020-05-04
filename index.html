@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Whatsapp Invite</title>
+  </head>
+  <body>
+    <div class="jumbotron d-flex-column justify-content-center">
+      <h1 class="display-6 text-center">
+        Hello, welcome to IbTv Give Away Competition
+      </h1>
+      <p class="lead text-center">
+        All you need to do is to enter a unique username and generate an invite
+        link.
+      </p>
+
+      <ul class="list-group list-group-flush text-center">
+        <li class="list-group-item">
+          You can either the link alone or copy the long text, which also
+          includes your personalized invite link and share with your friends.
+          Edit the texts if you want before you copy.
+        </li>
+      </ul>
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <form id="generate-link">
+        <div class="form-group">
+          <label for="your-name">Your Name</label>
+          <input type="text" class="form-control" id="your-name" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+          Generate Invite Link
+        </button>
+      </form>
+
+      <div id="links-group" class="card mt-4">
+        <div class="card-header">
+          CUSTOMIZED LINKS
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Your Custom link</h5>
+          <textarea
+            id="short-link"
+            class="form-control md-3"
+            rows="1"
+          ></textarea>
+          <a id="copy-link" href="#" class="btn btn-primary mt-3">Copy link</a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title md-3">
+            Auto generated text with your custom link
+          </h5>
+          <textarea
+            id="long-text"
+            class="form-control md-3"
+            rows="4"
+          ></textarea>
+          <a id="copy-text" href="#" class="btn btn-primary mt-3">Copy text</a>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center">
+      <p>Developed by IBTV MEDIA</p>
+    </div>
+
+    <!-- Script -->
+    <script src="index.js"></script>
+  </body>
+</html>

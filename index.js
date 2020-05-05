@@ -6,7 +6,7 @@ let longTextVal = document.getElementById("long-text");
 let copyText = document.getElementById("copy-text");
 let copyLink = document.getElementById("copy-link");
 const link = "https://wa.me/2348087362433?text=";
-const text = `If you are from Ibadan and you want to get exclusive news, information, entertainment🤸🤸, match-making💑💑, go on dates❤️❤️, frequent gifts and give-aways🛍️🛍️, business ideas🎩🎩, training, skill acquisition and so much more, join thousands of beautiful people from Ibadan on IBTV.
+const text = `Get exclusive fun, news, information, entertainment🤸🤸, match-making💑💑, go on dates❤️❤️, frequent gifts and give-aways🛍️🛍️, business ideas🎩🎩, training, skill acquisition and so much more, join thousands of beautiful people on IBTV.
 
 Just click the link, send us your name, and save our contact on your phone. Join now, using this link`;
 
